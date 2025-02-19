@@ -41,6 +41,11 @@
       "overlay": true
     }
   ],
+  "map": {
+    "max_zoom": 8,
+    "zoom_to_place": false,
+    "geometry": "geometry"
+  },
   "search": {
     "cluster_radius": 6,
     "result_card": {
