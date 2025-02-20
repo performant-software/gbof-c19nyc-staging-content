@@ -44,24 +44,24 @@
   "map": {
     "max_zoom": 8,
     "zoom_to_place": false,
-    "geometry": "geometry"
+    "geometry": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.geometry"
   },
   "search": {
-    "cluster_radius": 6,
+    "geosearch": true,
     "result_card": {
-      "title": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.0.name",
-      "subtitle": "name"
+      "title": "name",
+      "subtitle": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.0.name"
     },
-    "timeline": false,
-    "route": "/places"
+    "route": "/organizations"
   },
   "typesense": {
     "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
     "port": 443,
     "protocol": "https",
     "api_key": "xbEBb9iWpXMmA0GqwqzJ8DKzMDKR6zax",
-    "index_name": "gbof_c19nyc",
+    "index_name": "gbof_c19nyc_organizations",
     "query_by": "name",
+    "default_sort": "name",
     "facets": {
       "exclude": [
         "all_projects_facet",
@@ -70,6 +70,9 @@
         "owner_project_facet.id",
         "owner_project_facet.name"
       ]
+    },
+    "overrides": {
+      "geoLocationField": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.coordinates"
     }
   },
   "core_data": {
