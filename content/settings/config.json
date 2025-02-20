@@ -58,7 +58,7 @@
     "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
     "port": 443,
     "protocol": "https",
-    "api_key": "xbEBb9iWpXMmA0GqwqzJ8DKzMDKR6zax",
+    "api_key": "KarDvFeT9vA8TEEFaa1vuKEkpToaqGhC",
     "index_name": "gbof_c19nyc_organizations",
     "query_by": "name",
     "default_sort": "name",
