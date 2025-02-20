@@ -12,5 +12,7 @@
   "t_coreDataLogin": "Log in to Core Data",
   "t_tinaLogin": "Log in to Tina CMS",
   "t_title": "Name",
-  "t_root": "Places"
+  "t_root": "Places",
+  "t_showMore": "Show More",
+  "t_showLess": "Show Less"
 }
