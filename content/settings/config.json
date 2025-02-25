@@ -1,8 +1,18 @@
 {
-  "content": ["posts", "paths"],
+  "map": {
+    "max_zoom": 8,
+    "zoom_to_place": false,
+    "geometry": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.geometry"
+  },
+  "content": [
+    "posts",
+    "paths"
+  ],
   "i18n": {
     "default_locale": "en",
-    "locales": ["en"]
+    "locales": [
+      "en"
+    ]
   },
   "layers": [
     {
@@ -18,7 +28,6 @@
     {
       "name": "USGS Topo (MapServer)",
       "layer_type": "raster",
-      "foo": "https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer?bbox=%7Bbbox-epsg-3857%7D&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=0&styles=default",
       "url": "https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=0&styles=default"
     },
     {
@@ -37,22 +46,14 @@
       "name": "US States",
       "layer_type": "geojson",
       "url": "gz_2010_us_040_00_20m.json",
-      "description": "Data from the United States Census Bureau. https://eric.clst.org/tech/usgeojson/",
       "overlay": true
     }
   ],
-  "map": {
-    "max_zoom": 8,
-    "zoom_to_place": false,
-    "geometry": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.geometry"
-  },
   "search": {
-    "geosearch": true,
     "result_card": {
       "title": "name",
       "subtitle": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.0.name"
-    },
-    "route": "/organizations"
+    }
   },
   "typesense": {
     "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
@@ -60,23 +61,12 @@
     "protocol": "https",
     "api_key": "KarDvFeT9vA8TEEFaa1vuKEkpToaqGhC",
     "index_name": "gbof_c19nyc_organizations",
-    "query_by": "name",
-    "default_sort": "name",
-    "facets": {
-      "exclude": [
-        "all_projects_facet",
-        "all_projects_facet.name",
-        "owner_project_facet",
-        "owner_project_facet.id",
-        "owner_project_facet.name"
-      ]
-    },
-    "overrides": {
-      "geoLocationField": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.coordinates"
-    }
+    "query_by": "name"
   },
   "core_data": {
     "url": "https://staging.coredata.cloud",
-    "project_ids": [24]
+    "project_ids": [
+      "24"
+    ]
   }
 }
