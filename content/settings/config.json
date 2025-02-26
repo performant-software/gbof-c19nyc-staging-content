@@ -11,8 +11,7 @@
   "i18n": {
     "default_locale": "en",
     "locales": [
-      "en",
-      "sp"
+      "en"
     ]
   },
   "layers": [
