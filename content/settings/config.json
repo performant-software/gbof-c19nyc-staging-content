@@ -55,6 +55,13 @@
       "title": "name",
       "subtitle": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.0.name"
     },
+    "result_filtering": {
+      "organizations": {
+        "exclude": [
+          "relatedPeople"
+        ]
+      }
+    },
     "route": "/organizations"
   },
   "typesense": {
@@ -78,5 +85,5 @@
     "footer_logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gbof-c19nyc-staging-content/hoe-rotary-printing-press.png",
     "footer_title": true,
     "footer_login": true
-  }
+  },
 }
