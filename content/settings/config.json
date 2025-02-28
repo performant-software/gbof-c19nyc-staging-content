@@ -58,7 +58,8 @@
     "result_filtering": {
       "organizations": {
         "exclude": [
-          "relatedPlaces"
+          "relatedPlaces",
+          "cb28be8a-2966-4899-a688-fc193e4cd1f3"
         ]
       }
     },
