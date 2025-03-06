@@ -12,6 +12,7 @@
   },
   "layers": [
     {
+      "name": "NY NJ JC",
       "layer_type": "georeference",
       "url": "https://core-data-map-library.s3.us-east-1.amazonaws.com/02.json",
       "overlay": true,
