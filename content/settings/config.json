@@ -1,9 +1,4 @@
 {
-  "map": {
-    "max_zoom": 8,
-    "zoom_to_place": false,
-    "geometry": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.geometry"
-  },
   "content": [
     "posts",
     "paths"
@@ -16,6 +11,13 @@
     ]
   },
   "layers": [
+    {
+      "layer_type": "georeference",
+      "url": "https://core-data-map-library.s3.us-east-1.amazonaws.com/02.json",
+      "overlay": true,
+      "default": false
+    },
+    {},
     {
       "name": "Maptiler DataViz Style",
       "layer_type": "vector",
@@ -50,8 +52,12 @@
       "overlay": true
     }
   ],
+  "map": {
+    "geometry": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.geometry",
+    "max_zoom": 8,
+    "zoom_to_place": false
+  },
   "search": {
-    "georeference": true,
     "result_card": {
       "title": "name",
       "subtitle": "83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.0.name"
@@ -75,9 +81,7 @@
   "branding": {
     "primary": "#D8F2F4",
     "header_logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gbof-c19nyc-staging-content/hoe-rotary-printing-press.png",
-    "header_title": true,
     "footer_logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gbof-c19nyc-staging-content/hoe-rotary-printing-press.png",
-    "footer_title": true,
     "footer_login": true
   }
 }
