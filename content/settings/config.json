@@ -44,7 +44,7 @@
       "layer_type": "georeference",
       "url": "https://staging.iiifcloud.com/public/resources/478e007b-2270-4bc1-a5a1-640b4e624f34/content",
       "overlay": true,
-      "default": true
+      "default": false
     },
     {
       "name": "US States",
