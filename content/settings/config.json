@@ -89,7 +89,7 @@
     ]
   },
   "branding": {
-    "primary": "#D8F2F4",
+    "primary": "#73969B",
     "header_logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gbof-c19nyc-staging-content/hoe-rotary-printing-press.png",
     "footer_logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gbof-c19nyc-staging-content/hoe-rotary-printing-press.png",
     "footer_login": true
