@@ -64,7 +64,8 @@
         "name": "name_facet",
         "icon": "location",
         "type": [
-          "select"
+          "select",
+          "list"
         ]
       }
     ],
