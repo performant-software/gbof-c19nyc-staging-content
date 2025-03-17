@@ -76,14 +76,7 @@
         ]
       }
     },
-    "route": "/organizations",
-    "result_filtering": {
-      "events": {
-        "exclude": [
-          "\"name\", \"2f400af6-ee3f-42e4-8321-7b92c5a7cd23\""
-        ]
-      }
-    }
+    "route": "/organizations"
   },
   "typesense": {
     "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
