@@ -5,10 +5,12 @@
     "footer_logo": "https://core-data-tina-cms.s3.us-east-1.amazonaws.com/gbof-c19nyc-staging-content/hoe-rotary-printing-press.png",
     "footer_login": true
   },
-  "content": [
-    "posts",
-    "paths"
-  ],
+  "content": {
+    "collections": [
+      "posts",
+      "paths"
+    ]
+  },
   "core_data": {
     "url": "https://staging.coredata.cloud",
     "project_ids": [
