@@ -26,6 +26,12 @@
   },
   "layers": [
     {
+      "layer_type": "georeference",
+      "url": "https://raw.githubusercontent.com/performant-software/gbof-map-library/refs/heads/main/layers/topographical-map-of-the-city-of-new-york-showing-original-water-courses-and-made-land.json",
+      "overlay": true,
+      "default": false
+    },
+    {
       "name": "Maptiler DataViz Style",
       "layer_type": "vector",
       "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
@@ -52,13 +58,6 @@
       "url": "https://core-data-map-library.s3.us-east-1.amazonaws.com/02.json",
       "overlay": true,
       "default": true
-    },
-    {
-      "name": "Sanitary & Topographical Map of the City and Island of New York.",
-      "layer_type": "georeference",
-      "url": "https://staging.iiifcloud.com/public/resources/478e007b-2270-4bc1-a5a1-640b4e624f34/content",
-      "overlay": true,
-      "default": false
     },
     {
       "name": "US States",
