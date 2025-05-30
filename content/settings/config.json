@@ -26,13 +26,6 @@
   },
   "layers": [
     {
-      "name": "Topographical Map of the City of New York. Showing Original Water Courses and Made Land.",
-      "layer_type": "georeference",
-      "url": "https://raw.githubusercontent.com/performant-software/gbof-map-library/refs/heads/main/layers/topographical-map-of-the-city-of-new-york-showing-original-water-courses-and-made-land.json",
-      "overlay": true,
-      "default": false
-    },
-    {
       "name": "Maptiler DataViz Style",
       "layer_type": "vector",
       "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
@@ -54,6 +47,20 @@
       "overlay": true
     },
     {
+      "name": "Topographical Map of the City of New York. Showing Original Water Courses and Made Land.",
+      "layer_type": "georeference",
+      "url": "https://raw.githubusercontent.com/performant-software/gbof-map-library/refs/heads/main/layers/topographical-map-of-the-city-of-new-york-showing-original-water-courses-and-made-land.json",
+      "overlay": true,
+      "default": false
+    },
+    {
+      "name": "Werpoes",
+      "layer_type": "georeference",
+      "url": "https://raw.githubusercontent.com/performant-software/gbof-map-library/refs/heads/main/layers/werpoes-georeferenced-annotation.json",
+      "overlay": true,
+      "default": false
+    },
+    {
       "name": "NY NJ JC",
       "layer_type": "georeference",
       "url": "https://core-data-map-library.s3.us-east-1.amazonaws.com/02.json",
@@ -65,13 +72,6 @@
       "layer_type": "geojson",
       "url": "gz_2010_us_040_00_20m.json",
       "overlay": true
-    },
-    {
-      "name": "Werpoes",
-      "layer_type": "georeference",
-      "url": "https://raw.githubusercontent.com/performant-software/gbof-map-library/refs/heads/main/layers/werpoes-georeferenced-annotation.json",
-      "overlay": true,
-      "default": false
     }
   ],
   "result_filtering": {
